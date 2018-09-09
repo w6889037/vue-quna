@@ -16,6 +16,17 @@ npm run build
 
 # build for production and view the bundle analyzer report
 npm run build --report
+
+
+
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/w6889037/vue-quna.git
+git push -u origin master
+
+git remote add origin https://github.com/w6889037/vue-quna.git
+git push -u origin master
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
