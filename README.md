@@ -27,6 +27,10 @@ git push -u origin master
 
 git remote add origin https://github.com/w6889037/vue-quna.git
 git push -u origin master
+
+# 安装fastclick
+cnpm install fastclick --save
+
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
