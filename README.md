@@ -31,6 +31,10 @@ git push -u origin master
 # 安装fastclick
 cnpm install fastclick --save
 
+# 安装stylus
+cnpm install stylus --save
+cnpm install stylus-loader --save
+
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
