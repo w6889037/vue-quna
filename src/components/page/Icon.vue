@@ -99,14 +99,15 @@ export default {
         background: #fff
     .icons
         display:flex
-        height:10.3125rem /* 85/16 */
+        height:100%
         flex-wrap:wrap
         .icon
-            width: 4.8625rem
-            height: 3.525rem
+            width: 20%
+            height: 100%
+            text-align:center
             .icon-image
-                width:100%
-                height:100%
+                width:4rem
+                height:3rem
             .icon-p
                 text-align:center
                 font-family: Hiragino Sans GB, Arial,Helvetica, "宋体", sans-serif
