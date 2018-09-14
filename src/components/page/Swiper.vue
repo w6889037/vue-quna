@@ -50,7 +50,7 @@ export default {
     width: 100%
     padding-bottem: 31.25%
     .swiper-img
-        width: 100%;
+        width: 100%
 
 </style>
 
