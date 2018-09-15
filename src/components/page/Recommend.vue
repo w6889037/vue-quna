@@ -28,14 +28,14 @@ export default {
                 text3:"9.6万条评价",
                 text4:"查看详情"
             },{
-                id:"01",
+                id:"02",
                 imgUrl:"https://youimg1.c-ctrip.com/target/10090r000000hffxs7E31_D_228_170_Mtg_7.jpg",
                 text1:"大连圣亚海洋世界旅游度假区",
                 text2:"5星级景区",
                 text3:"9.7万条评价",
                 text4:"查看详情"
             },{
-                id:"01",
+                id:"03",
                 imgUrl:"https://youimg1.c-ctrip.com/target/10090r000000hffxs7E31_D_228_170_Mtg_7.jpg",
                 text1:"湖南张家界旅游度假区",
                 text2:"5星级景区",
