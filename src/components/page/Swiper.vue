@@ -1,6 +1,6 @@
 <template>
     <div class="wrapper">
-        <swiper :options="swiperOption">
+        <swiper :options="swiperOption" v-if="showSwiper">
             <!-- slides -->
             <swiper-slide v-for="item of swiperList" :key="item.id">
                 <img :src="item.imgUrl" class="swiper-img">
@@ -21,23 +21,21 @@
 <script>
 export default {
   name: "HomeSwiper",
+  props:{
+    swiperList: Array
+  },
   data() {
     return {
       swiperOption: {
           pagination: '.swiper-pagination',
           loop: true
-      },
-      swiperList:[{
-          id:'0001',
-          imgUrl:'https://m.tuniucdn.com/fb2/t1/G5/M00/F8/19/Cii-sluHseGIQadxAAJvUm33G7QAAM7OwDyDjkAAm9q98_w640_h0_c0_t0_w640_h0_c0_t0_w640_h0_c0_t0.jpeg'
-      },{
-          id:'0002',
-          imgUrl:'https://m.tuniucdn.com/fb2/t1/G2/M00/81/20/Cii-TFj0m3WII6uwAAFUmD33YmUAAJQzwN-ED8AAVSw27_w640_h0_c0_t0_w640_h0_c0_t0_w640_h0_c0_t0.jpeg'
-      },{
-          id:'0003',
-          imgUrl:'https://m1.tuniucdn.com/fb2/t1/G5/M00/F8/1B/Cii-tFuHslyIPvZYAAOgdWzANZYAAM7PQKxd64AA6CN89_w640_h0_c0_t0_w640_h0_c0_t0_w640_h0_c0_t0.jpeg'
-      }]
+      }
     };
+  },
+  computed: {
+      showSwiper() {
+          return this.swiperList.length
+      }
   }
 };
 </script>
